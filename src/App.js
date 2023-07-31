@@ -3,9 +3,21 @@ import {Route, Routes} from 'react-router-dom';
 import {Box} from '@mui/material';
 
 import './App.css';
+import ExerciseDetail from './pages/ExerciseDetails';
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
 const App = () => {
   return (
-    <Box>App</Box>
+    <Box width="400px">
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/exercise/:id' element={<ExerciseDetail/>}/>
+      </Routes>
+      <Footer />
+    </Box>
   )
 }
 
