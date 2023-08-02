@@ -7,7 +7,7 @@ const HeroBanner = () => {
   return (
     <Box sx={{ mt: { lg: '100px', xs: '70px' }, ml: { sm: '50px' } }} position="relative" p="20px">
     <Typography color="#FF2625" fontWeight="600" fontSize="25px">Fitness Club</Typography>
-     <Typography fontWeight={700} sx={{ fontSize: { lg: '40px', xs: '35px' } }} mb="2px" mt="2px">
+     <Typography fontWeight={700} sx={{ fontSize: { lg: '35px', xs: '30px' } }} mb="2px" mt="2px">
        Sweat, Smile <br />
        And Repeat
      </Typography>
